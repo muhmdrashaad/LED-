@@ -1,0 +1,11 @@
+void setup()
+{
+  pinMode(10, INPUT);
+  pinMode(9, OUTPUT);
+}
+
+void loop()
+{
+  int x=digitalRead(10);
+digitalWrite(9,!x);
+}
